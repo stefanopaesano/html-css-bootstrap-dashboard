@@ -1,0 +1,19 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    border: 1px solid red;
+}
+
+main{
+    height: 100%;
+}
+
+section{
+    display: flex;
+ 
+}
