@@ -27,6 +27,10 @@ section {
     display: flex;
     
 }
+i{
+    margin: 20px 10px;
+    
+}
 
 .contenitore-3{
     display: flex;
@@ -45,4 +49,8 @@ section {
 
 .card{
     margin-top: 10px;
+}
+
+img{
+    width: 100%;
 }

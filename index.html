@@ -20,18 +20,18 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col bg-primary">
+                <div class="col">
                     <div class="logo">
-                        logo
+                        <img src="https://hired.com/wp-content/uploads/2020/10/Boolean_partner-post-cover_.png" alt="">
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="input-cerca">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <div class="input-cerca d-flex">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #1e1e1f;"></i> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     </div>
                 </div>
-                <div class="col-3">
-                    icon icon icon 
+                <div class="col-3 text-end">
+                    <i class="fa-solid fa-question " style="color: #252627;"></i> <i class="fa-solid fa-sailboat" style="color: #202122;"></i> <i class="fa-solid fa-bell" style="color: #e6e901;"></i>
                 </div>
             </div>
         </div>
@@ -39,13 +39,18 @@
 
     <main>
         <section class="row">
-            <div class="col-3">
+            <div class="col-3 bg-primary d-flex flex-column">
+
                 <nav class="nav flex-column">
-                    <a class="nav-link active" aria-current="page" href="#">Active</a>
-                    <a class="nav-link" href="#">icon</a>
-                    <a class="nav-link" href="#">icon</a>
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <i class="fa-solid fa-house text-center" style="color: #ffffff;"> home</i>
+                    <i class="fa-regular fa-user  text-center" style="color: #f7f7f7;"> stats</i>
+                    <i class="fa-regular fa-user  text-center" style="color: #f7f7f7;"> signals</i>
+            
                 </nav>
+                <nav class="flex-column flex-end" >
+                    <i class="fa-option fa-user text-center" style="color: #f7f7f7;"> signals</i>
+                </nav>
+
             </div>
 
             <div class="col-9">
@@ -81,7 +86,7 @@
                                 <p>
                                     nuovo studente
                                 </p>
-                                <input type="button" class="button" value="+" >
+                                <input type="button" class="button bg-primary border-white" value="+" >
                             </div>
                         </div>
                     </div>
